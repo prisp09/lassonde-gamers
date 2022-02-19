@@ -8,8 +8,29 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    text-align: center
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: center
+}
+
+h3 {
+    text-align: center
 }
 
 button {
-    background-color: rgb(218, 157, 78);
+    background-color: rgb(218, 209, 78);
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+    transform: translate(-50%, -50%);
+}
+
+image {
+    width: 500px hight=200px
 }
