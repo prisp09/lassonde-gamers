@@ -5,17 +5,26 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background: white;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
 
-a {
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neon {
     position: relative;
     display: inline-block;
     padding: 100px 100px;
@@ -26,30 +35,37 @@ a {
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-right: 50px;
 }
 
-a:hover {
+.neon:hover {
     background: #03e9f4;
     color: #050801;
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
-a:nth-child(1) {
+.neon:nth-child(1) {
+    filter: hue-rotate(180deg);
+}
+
+.neon:nth-child(2) {
+    filter: hue-rotate(90deg);
+}
+
+.neon:nth-child(3) {
+    filter: hue-rotate(0deg);
+}
+
+.neon:nth-child(4) {
     filter: hue-rotate(270deg);
 }
 
-a:nth-child(2) {
-    filter: hue-rotate(110deg);
-}
-
-a span {
+.neon span {
     position: absolute;
     display: block;
 }
 
-a span:nth-child(1) {
+.neon span:nth-child(1) {
     top: 0;
     left: 0;
     width: 100%;
@@ -68,7 +84,7 @@ a span:nth-child(1) {
     }
 }
 
-a span:nth-child(2) {
+.neon span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -88,7 +104,7 @@ a span:nth-child(2) {
     }
 }
 
-a span:nth-child(3) {
+.neon span:nth-child(3) {
     bottom: 0;
     right: 0;
     width: 100%;
@@ -108,7 +124,7 @@ a span:nth-child(3) {
     }
 }
 
-a span:nth-child(4) {
+.neon span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;

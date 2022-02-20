@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        OSS Scavenger Hunt!
+    </title>
+
+    <link rel="icon" href="Ontario_Science_Centre_Logo.svg" type="image/icon type">
+
+
+    <link rel="stylesheet" href="ascav.css">
+    <link rel="stylesheet" href="Adultpage.css">
+    <link rel="stylesheet" href="atombutton.css">
+
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="adult.mp4" type="video/mp4">
+    </video>
+    <div>
+        <img class="logoehe" src="../Title/Logo.png" alt="Logo" style="size: 10px;">
+        <br>
+        <img class="title" src="text.png" alt="SCANENGER HUNT!">
+    </div>
+
+    <div class="mapbtn">
+        <a href="../Title/Mappage.html">
+            <div class="btn">
+                <span>MAP</span>
+                <div class="dot"></div>
+            </div>
+        </a>
+    </div>
+
+    <div>
+        <div class="question">
+            <h3>
+                HINT:
+            </h3>
+            <p>
+                Rock, papers, scissors... SHOOT!
+            </p>
+        </div>
+    </div>
+
+    <div class="qrbtn">
+        <a href="./Scanned.html">
+            <div class="btn">
+                <span>SCAN QR</span>
+                <div class="dot"></div>
+            </div>
+        </a>
+    </div>
+
+    <div class="inpt">
+        <input type="file" accept="image/*" id="file-input">
+        <script>
+            const fileInput = document.getElementById('file-input');
+
+            fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+        </script>
+    </div>
+</body>
+
+</html>

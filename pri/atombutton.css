@@ -34,8 +34,10 @@ h1 {
 }
 
 .btn {
-    position: relative;
+    position: absolute;
+    bottom: 10%;
     margin: 0 auto;
+    left: 43.5%;
     width: var(--btn-w);
     color: var(--primary);
     border: .15em solid var(--primary);

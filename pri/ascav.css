@@ -1,0 +1,35 @@
+.mapbtn {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    margin: 20px;
+}
+
+.question {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    color: white;
+}
+
+.qrbtn {
+    position: fixed;
+    bottom: 35%;
+    left: 42%;
+    margin: 20px;
+}
+
+.inpt {
+    position: fixed;
+    bottom: 47%;
+    left: 44%;
+    margin: 20px;
+    color: white;
+}
+
+.cent {
+    position: absolute;
+    bottom: 47%;
+    left: 44%;
+    color: white;
+}

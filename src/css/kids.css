@@ -80,9 +80,8 @@ button::after {
 }
 
 img {
-    /* width: 500px hight=200px */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
